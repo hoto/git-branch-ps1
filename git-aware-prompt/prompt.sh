@@ -25,12 +25,3 @@ find_git_dirty() {
 }
 
 PROMPT_COMMAND="find_git_branch; find_git_commit_hash; find_git_dirty; $PROMPT_COMMAND"
-
-# Default Git enabled prompt with dirty state
-# export PS1="\u@\h \w \[$txtcyn\]\$git_branch\[$txtred\]\$git_dirty\[$txtrst\]\$ "
-
-# Another variant:
-# export PS1="\[$bldgrn\]\u@\h\[$txtrst\] \w \[$bldylw\]\$git_branch\[$txtcyn\]\$git_dirty\[$txtrst\]\$ "
-
-# Default Git enabled root prompt (for use with "sudo -s")
-# export SUDO_PS1="\[$bakred\]\u@\h\[$txtrst\] \w\$ "

@@ -1,5 +1,5 @@
 # This is a modified git project of the same name. Modified to suit my taste and needs.
-source ${HOME}/.bash/git-aware-prompt/main.sh
+source ${GIT_BRANCH_PS1}/git-aware-prompt/main.sh
 
 function show_return_code_if_non_zero() {
   RETVAL=$?
